@@ -1,14 +1,13 @@
 //// Zad 4
 
+let persone = {
+    name : "Igor",
+    hello : function(){
+        console.log(this.name )
+     }
+};
 
-
-
-
-
-
-
-
-
+persone.hello();
 
 
 
