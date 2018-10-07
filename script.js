@@ -1,24 +1,39 @@
-///// zad 5
 
+////// zad 6
 
-function forEach(fn){
+function forEach(fn) {
     for (let i = 0; i < this.length - 1; i++) {
-       // console.log(arr[i]);
-       fn(this[i]);
+        // console.log(arr[i]);
+        fn(this[i]);
     }
 
 }
 const names = ['Janek', 'Wiola', 'Mateusz', 'Kamila', 'Olaf', 'Sylwia'];
-
-
-
-
 names.forEach = forEach;
-names.forEach( console.log);
+names.forEach(console.log);
+names.forEach(function (arg)  {  
+      console.log(arg)
+    });
+
+
+
+///// zad 5
+/*
+function forEach(fn) {
+    for (let i = 0; i < this.length - 1; i++) {
+        // console.log(arr[i]);
+        fn(this[i]);
+    }
+
+}
+const names = ['Janek', 'Wiola', 'Mateusz', 'Kamila', 'Olaf', 'Sylwia'];
+names.forEach = forEach;
+names.forEach(console.log);
+*/
+
 //// Zad 4
 
 /* 
-
 const persone = {
     name : "Igor",
     hello : function(){
@@ -26,8 +41,8 @@ const persone = {
      }
 };
 persone.hello();
-
 **/
+
 /// zad 3
 /*/
 function forEach(arr,fn){
@@ -38,8 +53,8 @@ function forEach(arr,fn){
 }
 const names = ['Janek', 'Wiola', 'Mateusz', 'Kamila', 'Olaf', 'Sylwia'];
 forEach(names, console.log);
-
 */
+
 // zad 2
 /*
 const hello = function(){
